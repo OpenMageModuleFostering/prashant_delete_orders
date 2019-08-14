@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>prashant_delete_orders</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension allows you to delete orders from admin panel. Easy to delete orders through admin.</summary>
+    <description>Magento doesn't allow to delete orders by default. This extension allows you to seamlessly delete any order from admin. You can delete multiple orders. I have also provided options to delete any order from the order list page and order view page.</description>
+    <notes>First Release</notes>
+    <authors><author><name>Prashant Kumar</name><user>prashantkr</user><email>vicky.bgp@gmail.com</email></author></authors>
+    <date>2016-03-16</date>
+    <time>20:12:02</time>
+    <contents><target name="magecommunity"><dir name="Prashant"><dir name="DeleteOrders"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><file name="Grid.php" hash="7e2028e0f93a74f865839b8c16559642"/><file name="View.php" hash="72a1ab998e84008d5b1d9fde6e485d54"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="90ebd7bdba37eb0b6d5b90162d3399e4"/></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Sales"><file name="OrderController.php" hash="cbb97c91c792f43f2fe28c7e027719ad"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="002ddd4a2aee77fee2e68f75b6ff8082"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Prashant_DeleteOrders.xml" hash="ccc1f048c2a1a7ebc9ffc213a1786c9b"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.1</min><max>6.0.0</max></php></required></dependencies>
+</package>
