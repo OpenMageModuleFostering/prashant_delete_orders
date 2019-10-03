@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/prashant_delete_orders",
+    "name": "openmage-module-fostering\/prashant_delete_orders",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension allows you to delete orders from admin panel. Easy to delete orders through admin.",
     "authors": [
